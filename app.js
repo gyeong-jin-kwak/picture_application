@@ -25,11 +25,26 @@ canvas.height = 800;
 
 
 ///////////////////////////////////////
-context.moveTo(50, 50);
-context.lineTo(150, 50);
-context.lineTo(150, 150);
-context.lineTo(50, 150);
-context.lineTo(50, 50);
-context.stroke();
-context.fill();
+// context.moveTo(50, 50);
+// context.lineTo(150, 50);
+// context.lineTo(150, 150);
+// context.lineTo(50, 150);
+// context.lineTo(50, 50);
+// context.stroke();
+// context.fill();
 ///////////////////////////////////////
+
+
+///////////////////////////////////////
+context.fillRect(200, 200, 30, 200);
+context.fillRect(500, 200, 30, 200);
+context.fillRect(200, 200, 300, 30);
+context.moveTo(200, 200);
+context.lineWidth="2";
+context.lineTo(370, 100);
+context.lineTo(530, 200);
+context.moveTo(320, 400);
+context.lineTo(320, 300);
+context.lineTo(400, 300);
+context.lineTo(400, 400);
+context.stroke();
