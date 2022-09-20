@@ -34,17 +34,32 @@ canvas.height = 800;
 // context.fill();
 ///////////////////////////////////////
 
-
+// Drawing house
 ///////////////////////////////////////
-context.fillRect(200, 200, 30, 200);
-context.fillRect(500, 200, 30, 200);
-context.fillRect(200, 200, 300, 30);
-context.moveTo(200, 200);
-context.lineWidth="2";
-context.lineTo(370, 100);
-context.lineTo(530, 200);
-context.moveTo(320, 400);
-context.lineTo(320, 300);
-context.lineTo(400, 300);
-context.lineTo(400, 400);
-context.stroke();
+// context.fillRect(200, 200, 30, 200);
+// context.fillRect(500, 200, 30, 200);
+// context.fillRect(200, 200, 300, 30);
+// context.moveTo(200, 200);
+// context.lineWidth="2";
+// context.lineTo(370, 100);
+// context.lineTo(530, 200);
+// context.moveTo(320, 400);
+// context.lineTo(320, 300);
+// context.lineTo(400, 300);
+// context.lineTo(400, 400);
+// context.stroke();
+///////////////////////////////////////
+
+// Drawing person
+///////////////////////////////////////
+context.fillRect(300, 300, 25, 100);
+context.fillRect(435, 300, 25, 100);
+context.fillRect(340, 300, 80, 120);
+context.arc(375, 245, 50, 0, 2 * Math.PI);
+context.fill();
+context.beginPath();
+context.fillStyle="red";
+context.arc(350, 250, 10, Math.PI, 2 * Math.PI);
+context.arc(395, 250, 10, Math.PI, 2 * Math.PI);
+context.fill();
+///////////////////////////////////////
